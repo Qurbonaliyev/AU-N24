@@ -29,28 +29,81 @@ body{
     outline: 2px dashed #7299ec;
     outline-offset: 3px;
 }
-.site-header {
 
+/* header-stylesw */
+.site-header {
+    
 }
-.container {
+.site-header-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.header-container {
+.site-header-container {
+    display: flex;
+    align-items: center;
 }
-.left-content-wrapper {
+.site-header-logo{
+    display: flex;
+    margin-right: 35px;
+    padding: 8px 6px;
+    background-color: #fff;
+    border-radius: 7px;
+    
 }
-.header-logo {
+.site-header-logo:hover{
+    opacity: 0.8;
 }
-.exchange-wrapper {
+.site-header-logo:active{
+    opacity: 0.6;
 }
-.dollar-wrapper {
+
+.site-header-value-info {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: auto;
 }
-.dollar {
+.site-header-dollar {
+    margin-right: 35px;
 }
-.numbers {
+.currency-rates-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
 }
-.rubl-wrapper {
+.site-header-currency:not(:last-child){
+    margin-right: 25px;
 }
-.rubl {
+/* toogle */
+.lang-toogle {
+    display: flex;
+    padding: 3px;
+    background-color: #dce6ff;
+    border-radius: 39px;
+    margin-right: 25px;
 }
-.right-content-wrapper {
+.lang-toogle-link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: #a6a6a6;
+    
+}
+.lang-toogle-link-active {
+    background-color: #fff;
+    color: black;
+}
+
+.button {
+}
+.button-site-header {
 }
