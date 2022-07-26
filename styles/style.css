@@ -30,11 +30,19 @@ body{
     outline-offset: 3px;
 }
 
+.button {
+    padding: 13px 20px;
+    background-color: #7296ec;
+    border-radius: 10px;  
+    color: #fff;
+    text-decoration: none; 
+}
 /* header-stylesw */
 .site-header {
     
 }
 .site-header-top {
+    background-color: #F6F6F6;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -50,6 +58,12 @@ body{
     border-radius: 7px;
     
 }
+
+.logo-img {
+    width: 264px;
+    height: 28px;
+}
+
 .site-header-logo:hover{
     opacity: 0.8;
 }
@@ -98,12 +112,49 @@ body{
     color: #a6a6a6;
     
 }
+.lang-toogle-link:hover{
+    text-decoration: underline  ;
+}
 .lang-toogle-link-active {
     background-color: #fff;
     color: black;
 }
-
-.button {
+/* site-header-main-link */
+.button-site-header:hover{
+    opacity: 0.8;
 }
-.button-site-header {
+.button-site-header:active {
+    opacity: 0.6;
+}
+
+/* Site-nav */
+.site-nav-wrapper {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-nav-list:not(:last-child){
+    margin-right: 34px;
+}
+.site-nav-list-link {
+    text-decoration: none;
+    color: #7F7F7F;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.33px;
+}
+
+.site-nav-list-link:hover{
+    text-decoration: underline;
+}
+.site-nav-list-link:active{
+    opacity: 0.6;
+    color: #000;
 }
