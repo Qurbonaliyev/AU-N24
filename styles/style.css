@@ -38,9 +38,7 @@ body{
     text-decoration: none; 
 }
 /* header-stylesw */
-.site-header {
-    
-}
+
 .site-header-top {
     background-color: #F6F6F6;
     padding-top: 30px;
@@ -62,6 +60,7 @@ body{
 .logo-img {
     width: 264px;
     height: 28px;
+    object-fit: contain;
 }
 
 .site-header-logo:hover{
@@ -93,6 +92,17 @@ body{
 .site-header-currency:not(:last-child){
     margin-right: 25px;
 }
+/* search */
+.input-search{ 
+    width: 275px;
+    padding-top: 15px;
+    padding-left: 42px;
+    padding-bottom: 13px;
+    border-radius: 60px;
+    border-style: none;
+    margin-right: 25px;
+}
+
 /* toogle */
 .lang-toogle {
     display: flex;
@@ -142,6 +152,7 @@ body{
 .site-nav-list:not(:last-child){
     margin-right: 34px;
 }
+
 .site-nav-list-link {
     text-decoration: none;
     color: #7F7F7F;
@@ -152,9 +163,99 @@ body{
 }
 
 .site-nav-list-link:hover{
-    text-decoration: underline;
+    color: #7296ec;
+    transition: 0.6s ease;
 }
+
 .site-nav-list-link:active{
-    opacity: 0.6;
+    opacity: 0.8;
     color: #000;
 }
+.hr{
+    margin-bottom: 40px;
+}
+.banner-img{
+    border-style: none;
+    margin-bottom: 50px;
+}
+.banner{
+    
+    margin-bottom: 50px;
+}
+
+
+
+/* news card */
+.hero-container{
+    width: 1240px;
+}
+.hero-card.hero-card.hero-card{
+    padding: 20px 17px 15px 17px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    width: 393px;
+    padding: 20px, 17px, 15px, 17px;
+}
+
+.hero-card:last-child{
+    margin: 0;
+}
+   
+
+.hero-card-link{
+    text-decoration: none;
+}
+.hero-card-list{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hero-card-list-item{
+    margin: 0;
+    padding: 0;
+}
+.hero-title{
+    margin-bottom: 10px;
+    margin: 0;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.hero-text{
+    margin-bottom: 15px;
+    color: #4A4B4C;
+    line-height: 22px;
+}
+.hero-card.hero-card.hero-card:nth-child(3n){
+    display: flex;
+    align-items: end;
+    
+}
+
+.card-img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card-time{
+    margin: 0;
+    color: #5E5F61;
+}
+.icon-news{
+    margin-right: 10px;
+}
+.time-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+/* news reporter */
