@@ -204,6 +204,7 @@ body{
     padding: 20px, 17px, 15px, 17px;
 }
 
+
 .hero-card:last-child{
     margin: 0;
 }
@@ -220,6 +221,7 @@ body{
     padding: 0;
     list-style: none;
 }
+
 .hero-card-list-item{
     margin: 0;
     padding: 0;
@@ -233,6 +235,13 @@ body{
     line-height: 26px;
 }
 
+.hero-title:hover{
+    color: #7296ec;
+    transition: 0.5s ease;
+}
+.hero-title:active{
+    opacity: 0.8;
+}
 .hero-text{
     margin-bottom: 15px;
     color: #4A4B4C;
@@ -240,7 +249,7 @@ body{
 }
 .hero-card.hero-card.hero-card:nth-child(3n){
     display: flex;
-    align-items: end;
+    
     
 }
 
@@ -345,6 +354,7 @@ body{
     padding: 20px 17px;
     border-radius: 15px;
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 .global-news-list:not(:last-child){
     margin-bottom: 10px;
@@ -366,6 +376,15 @@ body{
     line-height: 26px;
     margin: 0;
     padding: 0;
+}
+.global-news-title:hover{
+    color: #7296ec;
+    transition: 0.4s ease;
+}
+
+.global-news-title:active{
+    opacity: 0.8;
+    transition: 0.4s ease;
 }
 
 .global-news-text {
@@ -399,15 +418,18 @@ body{
     width: 393px;
 }
 .sidebar-section {
+    padding: 20px 17px 25px;
     border-radius: 15px;
     background-color: #f6f6f6;
     color: #000;
 }
 .sidebar-title {
-    
+    margin: 0;
+    padding: 0;
 }
 .sidebar-list {
-    
+    margin: 0;
+    padding: 0;
 }
 .sidebar-list-item {
     list-style: none;
