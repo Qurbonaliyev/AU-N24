@@ -38,6 +38,20 @@ body{
     text-decoration: none; 
     border-style: none;
 }
+.button-block{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    background-color:#EAEAEA;
+    color: #000000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+    margin-bottom: 107px;
+}
 /* header-stylesw */
 
 .site-header-top {
@@ -345,6 +359,9 @@ body{
 
 
 /* global-news */
+.global-news{
+    margin-bottom: 10px;
+}
 
 .global-news-list{
     display: flex;
@@ -411,9 +428,7 @@ body{
     display: flex;
     align-items: flex-start;
 }
-.layout-2-1-global-news{
-    
-}
+
 .layout-2-1-sidebar{
     width: 393px;
 }
@@ -457,7 +472,7 @@ body{
     line-height: 24px;
 }
 .side-bar-time-wrapper {
-     padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .sidebar-time-channel-info {
     font-size: 13px;
@@ -467,3 +482,11 @@ body{
 .datatime{
     color: #5E5F61;
 } 
+
+.olmos-build{
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* footer */
