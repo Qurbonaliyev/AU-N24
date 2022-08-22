@@ -211,7 +211,6 @@ body{
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 15px;
     background-color: #f6f6f6;
     width: 393px;
@@ -248,6 +247,9 @@ body{
     font-size: 20px;
     line-height: 26px;
 }
+.card-title-thre{
+    width: 294px;
+}
 
 .hero-title:hover{
     color: #7296ec;
@@ -262,9 +264,7 @@ body{
     line-height: 22px;
 }
 .hero-card.hero-card.hero-card:nth-child(3n){
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .card-img{
