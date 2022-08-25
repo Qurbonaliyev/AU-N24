@@ -52,6 +52,16 @@ body{
     border-radius: 10px;
     margin-bottom: 107px;
 }
+.button-push{
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
 /* header-stylesw */
 
 .site-header-top {
@@ -685,7 +695,7 @@ body{
     line-height: 26px;
     color: #000;
     margin-bottom: 10px;
-
+    
 }
 .box-paragraph{
     font-family: 'Rubik';
@@ -700,4 +710,90 @@ body{
 .layout-span{
     margin-bottom: 36px;
 }
+
+/* index-4 */
+.section-form{
+    /* display: flex; */
+}
+.form-wrapper{
+    display: flex;
+    /* align-items: center; */
+
+}
+.send-title{
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.form{
+    width: 696px;
+    margin-right: 0;
+}
+.input-wrapper {
+    display: flex;
+}
+.input-name {
+    padding-left: 20px;
+    width: 343px;
+    height: 55px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+.input-email {
+    width: 696px;
+    height: 55px;
+    padding-left: 20px;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.textarea {
+    width: 696px;
+    height: 180px;
+    padding-top: 18px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    resize: none;
+    margin-bottom: 20px;
+}
+
+/* sidebar */
+.sidebar-contact{
+    height: 100%;
+    margin-top: 67px;
+    width: 494px;
+    padding-left: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-info-contact{
+    border-bottom: 1px solid #D2D2D2;
+    margin-bottom: 20px;
+    padding-bottom: 27px;
+}
+.sidebar-info-contact:last-child{
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.sidebar-contact-title{
+    margin: 0;
+}
+.sidebar-contact-paragraph{
+    margin: 0;
+}
+
 
