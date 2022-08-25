@@ -613,3 +613,91 @@ body{
     transition: 0.4s ease;
 }
 
+/* index-3 */
+.sub-footer{
+    display: flex;
+    margin-bottom: 100px;
+}
+.layout-span-3{
+    color: #5E5F61;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.tesla-title{
+    max-width: 100%;
+    color: #000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.index-3-layout1{
+    width: 797px;
+    margin-right: 10px;
+    border-bottom: 1px solid #D2D2D2;
+    margin-bottom: 60px;
+}
+
+.tesla-797{
+    margin-bottom: 25px;
+}
+.tesla-paragraph{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.paragraph-wrapper{
+    padding-bottom: 50px;
+}
+.title-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    
+}
+
+.box-card{
+    width: 393px;
+    padding: 20px 18px 15px 17px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    margin-right: 10px;
+    
+}
+.box-title{
+    margin: 0;
+    height: 78px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 10px;
+
+}
+.box-paragraph{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:#4A4B4C;
+    margin-bottom: 20px;
+}
+
+.layout-span{
+    margin-bottom: 36px;
+}
+
